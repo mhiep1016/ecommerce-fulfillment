@@ -1,4 +1,4 @@
 [build]
   base = "frontend"
   publish = "frontend/build"
-  command = "npm install && CI=false npm run build"
+  command = "npm install --legacy-peer-deps && ./node_modules/.bin/react-scripts build"
