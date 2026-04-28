@@ -2,3 +2,4 @@
   base = "ecommerce-fulfillment/frontend"
   publish = "ecommerce-fulfillment/frontend/build"
   command = "npm run build"
+  
